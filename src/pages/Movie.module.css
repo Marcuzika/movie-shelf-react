@@ -1,0 +1,93 @@
+.movie-card p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#movie-page {
+  color: #202020;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #ffff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+}
+
+#movie-page .movie-card h2 {
+  font-size: 2rem;
+}
+
+#movie-page svg {
+  font-size: 1.5rem;
+  color: #02b3e4;
+}
+
+#movie-page .movie-card img,
+#movie-page .movie-card h2,
+#movie-page .movie-card p {
+  margin-bottom: 1rem;
+  gap: 0.35rem;
+}
+
+#movie-page img {
+  border-radius: 4px;
+}
+
+#movie-page h2 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#icon-star {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+#icon-star svg {
+  color: #f7d354;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.format {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info {
+  margin-bottom: 2rem;
+  width: 35%;
+}
+
+.info h3 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info p {
+  font-size: 1.1rem;
+  justify-content: flex-start;
+}
+
+.description {
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+}
+
+.description p {
+  padding-top: 1rem;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}

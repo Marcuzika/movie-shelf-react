@@ -1,0 +1,26 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  position: relative;
+  min-height: 100vh;
+}
+
+main {
+  padding-bottom: 3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #02b3e4;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #1cd3ae;
+}
