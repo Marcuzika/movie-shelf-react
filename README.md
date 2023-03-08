@@ -1,6 +1,7 @@
 # Movie Shelf 🎬
 
 I made this project using vite-react, it's a movie app, where you can consult and view information about movies.
+I used the TheMovieDB API: https://api.themoviedb.org/.
 
 ## Demonstration
 
